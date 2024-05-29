@@ -1,0 +1,30 @@
+{
+  "name": "root",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "module": "./dist/elusa-ui.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm run -C packages/core build",
+    "publish": "pnpm run -C packages/core publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "sass": "^1.77.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0",
+    "vue": "^3.4.21"
+  },
+  "dependencies": {
+    "elusa-ui": "workspace:^",
+    "@elusa-ui/components": "workspace:^"
+  }
+}

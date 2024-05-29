@@ -1,0 +1,25 @@
+{
+  "name": "elusa-ui",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "module": "./dist/elusa-ui.es.js",
+  "exports": {
+    ".": "./dist/elusa-ui.es.js",
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "publish": "pnpm publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bumpp": "^9.4.1"
+  }
+}
