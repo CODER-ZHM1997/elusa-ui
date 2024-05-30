@@ -14,7 +14,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
-    "release": "bumpp && pnpm publish --access public --no-git-checks"
+    "release": "pnpm publish --access public --no-git-checks"
   },
   "keywords": [],
   "author": "",
